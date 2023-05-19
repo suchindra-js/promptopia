@@ -13,4 +13,7 @@ declare module "next-auth" {
       assess: string;
     };
   }
+  interface Profile {
+    picture: string;
+  }
 }

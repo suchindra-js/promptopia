@@ -48,7 +48,7 @@ const Nav = () => {
             <Link href="/create-prompt" className="black_btn">
               Create Post
             </Link>
-            <button type="button" onClick={() => signOut}>
+            <button type="button" onClick={() => signOut()}>
               Sign Out
             </button>
             <Link href="/profile">
