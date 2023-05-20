@@ -9,7 +9,7 @@ const Home = () => {
         <span className="orange_gradient text-center">Social Media</span>
       </h1>
       <p className="desc text-center">
-        Better is an social media platform for modern world to discover, create
+        Better is a social media platform for modern world to discover, create
         and share creative ideas
       </p>
       <Feed />
