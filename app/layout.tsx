@@ -4,8 +4,8 @@ import "@styles/globals.css";
 import { FC, ReactNode } from "react";
 
 export const metadata = {
-  title: "Promptopia",
-  description: "Discover & Share AI Prompts",
+  title: "Better",
+  description: "Discover & Share Ideas",
 };
 
 interface Props {

@@ -10,8 +10,8 @@ import { IPrompt } from "@models/prompt";
 interface Props {
   post: IPrompt;
   handleTagClick: (tagName: SetStateAction<string>) => void;
-  handleEdit?: any;
-  handleDelete?: any;
+  handleEdit?: () => void;
+  handleDelete?: () => void;
 }
 
 const PromptCard: FC<Props> = ({
